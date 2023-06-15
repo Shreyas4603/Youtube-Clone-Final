@@ -1,0 +1,18 @@
+.like-btn{
+    width: 40px;
+    height: 40px;
+    background-color: #0f0f0f;;
+    color: white;
+    border-radius: 50%;
+    border: none;
+
+}
+.like-btn:hover{
+    background-color: #414141;
+}
+
+.comment{
+    --max-lines:3;
+    --line-height:1;
+    max-height: calc(var(--max-lines)*1em *var(--line-height));
+}

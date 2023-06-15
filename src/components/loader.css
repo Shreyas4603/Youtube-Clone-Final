@@ -1,0 +1,42 @@
+html,
+body {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 20px;
+    background: #0f0f0f;
+    font-family: Roboto;
+    color:#0f0f0f ;
+}
+
+
+.loader{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 3px;
+    margin: 0px;
+    background: #e53935;
+    animation: loader 20s;
+    animation-fill-mode: both;
+
+    z-index: 9999;
+}
+@keyframes loader{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 22%;
+    }
+    50%{
+        width: 55%;
+    }
+    75%{
+        width: 83%;
+    }
+    100%{
+        width: 100%;
+    }
+    
+}
